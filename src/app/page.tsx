@@ -86,7 +86,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Enterprise-Grade Programs</h2>
             <p className="text-lg text-muted-foreground">
-              Comprehensive curriculums designed by industry experts to address your organization's specific skill gaps.
+              Comprehensive curriculums designed by industry experts to address your organization&apos;s specific skill gaps.
             </p>
           </div>
           

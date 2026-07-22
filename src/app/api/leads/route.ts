@@ -41,7 +41,7 @@ export async function POST(req: Request) {
       { status: 201 }
     );
     
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Error processing lead:", error);
     return NextResponse.json(
       { error: "Internal server error" },

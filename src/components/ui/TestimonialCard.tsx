@@ -16,7 +16,7 @@ export function TestimonialCard({ quote, author, role, company }: TestimonialCar
         ))}
       </div>
       <p className="text-foreground/90 italic mb-8 text-lg leading-relaxed">
-        "{quote}"
+        &quot;{quote}&quot;
       </p>
       <div className="flex items-center gap-4">
         <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary font-bold text-lg">
