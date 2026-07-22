@@ -1,6 +1,13 @@
 # Accredian Enterprise - Partial Clone
 
-This project is a partial clone of the Accredian Enterprise landing page, built as part of the Full Stack Developer Intern assignment. It is a responsive, clean, and fully functional Next.js application designed to showcase structured UI development and API integration.
+**🔗 Live Deployed Link (Vercel)**: [https://accredian-enterprise-sandy.vercel.app/](https://accredian-enterprise-sandy.vercel.app/)  
+**📁 GitHub Repository**: [https://github.com/Kaveri-Bhimappa-Jarali/Accredian-Enterprise](https://github.com/Kaveri-Bhimappa-Jarali/Accredian-Enterprise)
+
+This project is a partial clone of the Accredian Enterprise landing page, built as part of the Full Stack Developer Intern assignment. It focuses heavily on structured UI development, clean component architecture, and seamless API integration.
+
+## ⭐ Bonus Accomplished!
+- **Lead Capture Form**: A fully functional hero section form was built to capture user leads.
+- **API Integration**: The form successfully stores data via a Next.js API Route (`/api/leads`) acting as the backend!
 
 ## 🚀 Features & Scope Accomplished
 
