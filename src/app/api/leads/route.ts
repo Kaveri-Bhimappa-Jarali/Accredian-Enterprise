@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { leadSchema } from "@/lib/validations/lead";
 
 // In-memory store for demonstration purposes (would be a database like Supabase/Prisma in production)
-const leadsDb: any[] = [];
+const leadsDb: Record<string, unknown>[] = [];
 
 export async function POST(req: Request) {
   try {
