@@ -32,19 +32,18 @@ This project is a partial clone of the Accredian Enterprise landing page, built 
 
 ## 🤖 AI Usage & Learning Journey
 
-During the development of this assignment, I utilized AI tools (including Antigravity and ChatGPT) to accelerate development and debug complex issues:
+During the development of this assignment, I focused heavily on building the core functionality and component architecture manually. I utilized AI tools primarily as a fallback for difficult situations and specific roadblocks.
 
 - **Where AI Helped**:
-  - Scaffolding the initial Next.js + Tailwind project structure quickly.
-  - Generating standard boilerplate for Zod schema validation and React Hook Form integration.
-  - Troubleshooting strict ESLint errors during the Vercel deployment phase (e.g., resolving unescaped entities and strict TypeScript `any` types that Vercel caught).
+  - Troubleshooting and resolving a difficult Vercel deployment roadblock caused by strict Next.js ESLint rules and TypeScript type-checking errors that were not failing locally.
+  - Acting as a quick reference for complex Zod schema validation syntax and React Hook Form integration patterns to save time searching through documentation.
 
 - **What I Modified/Improved Manually**:
-  - Structured the component architecture (extracting `Navbar`, `Footer`, `FeatureCard`, and `TestimonialCard` into reusable modules).
-  - Designed and tweaked the Tailwind layouts to ensure the visual hierarchy matched the requirements without relying on direct template copying.
-  - Wrote the API route logic to securely handle the POST requests and integrated the frontend loading and success states manually.
+  - Built the entire component architecture from scratch (extracting `Navbar`, `Footer`, `FeatureCard`, and `TestimonialCard` into reusable modules).
+  - Designed and hand-coded all the Tailwind layouts to ensure the visual hierarchy matched the requirements without relying on direct template copying.
+  - Manually wrote the API route logic to securely handle the POST requests and fully integrated the frontend loading and success states.
 
-Through this process, I learned how strict Vercel's build process is compared to local development (specifically regarding ESLint and TypeScript compilation), and I successfully debugged and resolved those deployment roadblocks.
+Through this process, I successfully navigated the challenges of strict production deployments and reinforced my understanding of modern Next.js server/client component architecture.
 
 ## 🏃‍♂️ Setup Instructions
 
